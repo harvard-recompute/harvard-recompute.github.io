@@ -1,0 +1,29 @@
+# Theme Settings
+markdown                 : kramdown
+theme                    : "minimal-mistakes-jekyll"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "ReCompute"
+# title_separator          : "-"
+# subtitle                 : "Harvard Responsible Computing Collective"
+description              : "Harvard Responsible Computing Collective"
+url                      : "https://harvard-recompute.github.io"
+repository               : "harvard-recompute"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
