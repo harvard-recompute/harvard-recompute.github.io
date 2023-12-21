@@ -5,5 +5,15 @@ search: false
 
 @charset "utf-8";
 
+/* Add customizations here */
+// $background-color: #F5D7E3;
+$primary-color: #3B429F;
+$link-color: #A8577E;
+$link-color-hover: #F4A5AE;
+$sans-serif: "Roboto", sans-serif;
+$footer-background-color: #FFF;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+$global-font-family: $garamond;

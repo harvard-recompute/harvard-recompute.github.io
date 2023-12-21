@@ -71,9 +71,10 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  text-align: center;
 
   a {
-    color: $text-color;
+    color: $primary-color;
     text-decoration: none;
   }
 
@@ -575,4 +576,12 @@ body {
       padding-right: 0;
     }
   }
+}
+
+/*
+  Custom
+  ========================================================================== */
+
+.description {
+  text-align: center;
 }

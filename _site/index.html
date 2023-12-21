@@ -60,8 +60,6 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="ReCompute Feed">
-
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,6 +76,7 @@
 
 
     <!-- start custom head snippets -->
+<!-- injects right after head.html (good for adding favicon images and the like) -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
@@ -135,14 +134,14 @@
   
 
 
-<div itemscope itemtype="https://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
 
   <div class="author__content">
-    
-      <h3 class="author__name" itemprop="name"></h3>
-    
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url"></a>
+    </h3>
     
   </div>
 
@@ -203,7 +202,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -223,7 +222,7 @@
     
     
 
-<h3 class="archive__subtitle">Recent posts</h3>
+<h3 class="archive__subtitle">Changing header</h3>
 
 
 
@@ -244,9 +243,37 @@
     <div id="footer" class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
+<!-- injects right before footer.html (good for adding banner ads and the like) -->
+
+<div class="page__footer-row">
+    <div>
+        <ul>
+            <li>
+                <img src="/assets/images/recompute_logo_long.png" width="150">
+            </li>
+            <li>
+                <a href="mailto:harvardrecompute@gmail.com" class="small">harvardrecompute@gmail.com</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h4>Quick Links</h4>
+        <ul>
+            <li>
+                Home
+            </li>
+            <li>
+                About us
+            </li>
+            <li>
+                Join our mailing list
+            </li>
+        </ul>
+    </div>
+</div>
 
 <!-- end custom footer snippets -->
-        <div class="page__footer-follow">
+        <!-- <div class="page__footer-follow">
   <ul class="social-icons">
     
       <li><strong>Follow:</strong></li>
@@ -255,12 +282,12 @@
     
 
     
-      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-    
   </ul>
-</div>
+</div> -->
 
-<div class="page__footer-copyright">&copy; 2023 ReCompute. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2023 ReCompute. 
+  <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. -->
+</div>
 
       </footer>
     </div>
