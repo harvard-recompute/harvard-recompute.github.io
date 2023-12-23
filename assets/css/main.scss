@@ -4,13 +4,17 @@ search: false
 ---
 
 @charset "utf-8";
+@font-face {
+    font-family: "lustria";
+    src: url("../fonts/Lustria-Regular.ttf");
+}
 
 /* Add customizations here */
-// $background-color: #F5D7E3;
-$primary-color: #3B429F;
+$primary-color: #1255CC;
 $link-color: #A8577E;
 $link-color-hover: #F4A5AE;
 $sans-serif: "Roboto", sans-serif;
+$header-font-family: "lustria";
 $footer-background-color: #FFF;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin

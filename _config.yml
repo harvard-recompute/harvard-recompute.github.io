@@ -9,7 +9,7 @@ title                    : "ReCompute"
 description              : "Harvard Responsible Computing Collective"
 url                      : "https://harvard-recompute.github.io"
 repository               : "harvard-recompute"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/recompute_logo_small.png"
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true

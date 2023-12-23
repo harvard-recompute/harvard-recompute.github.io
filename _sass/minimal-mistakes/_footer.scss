@@ -66,7 +66,7 @@
   li {
     display: block;
     font-family: $sans-serif-narrow;
-    font-size: $type-size-5;
+    font-size: $type-size-6;
     margin-bottom: 0;
   }
 
@@ -80,6 +80,13 @@
   font-family: $global-font-family;
   font-size: $type-size-7;
   padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  div {
+    max-width: 50%;
+  }
 }
 
 .page__footer-follow {
