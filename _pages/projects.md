@@ -9,4 +9,4 @@ We aim to understand how computing tools are sourced, interfaced, and deployed w
 
 ### Responsible AI Speaker Series
 
-Throughout the semester, we invite researchers & industry professionals to speak about their Responsible AI-related work to raise more awareness of the field on campus and encourage students to engage in Responsible AI-related conversations. Previous speakers include NVIDIA’s Head of AI Ethics Nikki Pope and Harvard HCI professor Elena Glassman.
+Throughout Fall 2023, we invited researchers & industry professionals to speak about their Responsible AI-related work to raise more awareness of the field on campus and encourage students to engage in Responsible AI-related conversations. Previous speakers include NVIDIA’s Head of AI Ethics Nikki Pope and Harvard HCI professor Elena Glassman.

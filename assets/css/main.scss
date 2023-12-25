@@ -8,16 +8,19 @@ search: false
     font-family: "lustria";
     src: url("../fonts/Lustria-Regular.ttf");
 }
+@font-face {
+    font-family: "poppins";
+    src: url( "../fonts/Poppins-Medium.ttf");
+}
 
 /* Add customizations here */
 $primary-color: #1255CC;
 $link-color: #A8577E;
 $link-color-hover: #F4A5AE;
-$sans-serif: "Roboto", sans-serif;
-$header-font-family: "lustria";
+$sans-serif: "poppins", sans-serif;
+$header-font-family: "poppins";
+$global-font-family: "lustria";
 $footer-background-color: #FFF;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-$global-font-family: $garamond;
