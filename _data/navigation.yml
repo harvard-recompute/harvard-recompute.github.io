@@ -3,5 +3,7 @@ main:
   #   url: /about/
   # - title: "Resources"
   #   url: /resources/
+  - title: "What We Do"
+    url: /pillars/
   - title: "Current Projects"
     url: /projects/
