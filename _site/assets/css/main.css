@@ -277,7 +277,7 @@ figure.half figcaption { width: 100%; }
 figure.third figcaption { width: 100%; }
 
 /* Figure captions */
-figcaption { margin-bottom: 0.5em; color: #646769; font-family: Georgia, Times, serif; font-size: 0.75em; }
+figcaption { margin-bottom: 0.5em; color: #646769; font-family: "lustria"; font-size: 0.75em; }
 figcaption a { -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 figcaption a:hover { color: #F4A5AE; }
 
@@ -989,7 +989,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .page__hero-image { width: 100%; height: auto; -ms-interpolation-mode: bicubic; }
 
-.page__hero-caption { position: absolute; bottom: 0; right: 0; margin: 0 auto; padding: 2px 5px; color: #fff; font-family: Georgia, Times, serif; font-size: 0.6875em; background: #000; text-align: right; z-index: 5; opacity: 0.5; border-radius: 4px 0 0 0; }
+.page__hero-caption { position: absolute; bottom: 0; right: 0; margin: 0 auto; padding: 2px 5px; color: #fff; font-family: "lustria"; font-size: 0.6875em; background: #000; text-align: right; z-index: 5; opacity: 0.5; border-radius: 4px 0 0 0; }
 @media (min-width: 64em) { .page__hero-caption { padding: 5px 10px; } }
 .page__hero-caption a { color: #fff; text-decoration: none; }
 
@@ -1109,7 +1109,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .archive__item-teaser { position: relative; border-radius: 4px; overflow: hidden; }
 .archive__item-teaser img { width: 100%; }
 
-.archive__item-caption { position: absolute; bottom: 0; right: 0; margin: 0 auto; padding: 2px 5px; color: #fff; font-family: Georgia, Times, serif; font-size: 0.625em; background: #000; text-align: right; z-index: 5; opacity: 0.5; border-radius: 4px 0 0 0; }
+.archive__item-caption { position: absolute; bottom: 0; right: 0; margin: 0 auto; padding: 2px 5px; color: #fff; font-family: "lustria"; font-size: 0.625em; background: #000; text-align: right; z-index: 5; opacity: 0.5; border-radius: 4px 0 0 0; }
 @media (min-width: 64em) { .archive__item-caption { padding: 5px 10px; } }
 .archive__item-caption a { color: #fff; text-decoration: none; }
 
@@ -1296,3 +1296,8 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
+@media (min-width: 64em) { .page { float: right; width: calc(100% - 50px); padding-right: 50px; } }
+@media (min-width: 80em) { .page { width: calc(100% - 80px); padding-right: 80px; } }
+.half_gallery { width: 70%; margin: auto; }
+
+figure img { max-height: 400px; object-fit: contain; }

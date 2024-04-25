@@ -1,9 +1,11 @@
 main:
-  # - title: "About"
-  #   url: /about/
+  - title: "About Us"
+    url: /about/
   # - title: "Resources"
   #   url: /resources/
-  - title: "What We Do"
-    url: /pillars/
-  - title: "Current Projects"
+  - title: "Our Programming"
     url: /projects/
+  # - title: "Current Projects"
+  #   url: /projects/
+  - title: "Join Us"
+    url: "https://forms.gle/3yYdSQuZXwWH4sjM7"

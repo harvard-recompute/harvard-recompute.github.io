@@ -20,7 +20,21 @@ $link-color-hover: #F4A5AE;
 $sans-serif: "poppins", sans-serif;
 $header-font-family: "poppins";
 $global-font-family: "lustria";
+$caption-font-family: "lustria";
 $footer-background-color: #FFF;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@media (min-width: 64em) { .page { float: right; width: calc(100% - 50px); padding-right: 50px; } }
+@media (min-width: 80em) { .page { width: calc(100% - 80px); padding-right: 80px; } }
+
+.half_gallery {
+    width: 70%;
+    margin: auto;
+}
+
+figure img {
+    max-height: 400px;
+    object-fit: contain;
+}
