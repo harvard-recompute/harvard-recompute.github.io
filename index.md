@@ -14,6 +14,9 @@ layouts_gallery:
   - url: https://lil.law.harvard.edu/
     image_path: /assets/images/lil.png
     alt: "Library Innovation Labs"
+  - url: https://crcs.seas.harvard.edu/
+    image_path: /assets/images/crcs.png
+    alt: "Center for Research on Computation and Society"
 ---
 
 ## Our Mission
